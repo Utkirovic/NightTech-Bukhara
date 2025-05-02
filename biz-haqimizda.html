@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing House | Biz haqimizda</title>
+    <link rel="icon" type="image/png" href="googe-logo.jpg">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://img.freepik.com/free-vector/modern-desktop-background-geometric-blue-design-vector_53876-135923.jpg?semt=ais_hybrid&w=740') no-repeat center center fixed;
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        /* HEADER */
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #4fc3f7;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 30px 5%;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .footer-grid h4 {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        footer p {
+            margin: 6px 0;
+        }
+
+        footer p a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer p a:hover {
+            color: #4fc3f7;
+        }
+
+        .footer-bottom {
+            margin-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 15px;
+            font-size: 0.9rem;
+        }
+
+        .logo {
+            max-width: 150px;
+            width: 100%;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .about-section {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #4fc3f7;
+        }
+
+        .about-block {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 16px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .about-block:hover {
+            transform: translateY(-5px);
+        }
+
+        .about-block h3 {
+            font-size: 1.5rem;
+            color: #ffca28;
+            margin-bottom: 10px;
+        }
+
+        .about-block p,
+        .about-block ul {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #ddd;
+        }
+
+        .about-block ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .about-block ul li::before {
+            content: "\2714 ";
+            color: #4caf50;
+            margin-right: 8px;
+        }
+
+        .header-title {
+            font-family: 'Kunstler Script', cursive;
+            font-size: 48px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="logo-box">
+                <img src="amazing_house.jpg" alt="Amazing House Logo" class="logo" />
+                <h1 class="header-title">Amazing House</h1>
+            </div>
+
+            <!-- Navigatsiya -->
+            <nav class="nav-links">
+                <a href="index.html">Bosh sahifa</a>
+                <a href="aloqa.html">Aloqa</a>
+                <a href="biz-haqimizda.html">Biz haqimizda</a>
+                <a href="faq.html">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BIZ HAQIMIZDA BO‘LIMI -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">Biz haqimizda</h2>
+
+            <div class="about-block">
+                <h3>👋 Biz kimmiz?</h3>
+                <p><strong>Amazing House</strong> — Buxorodagi ilg‘or va zamonaviy turar-joy loyihalarini amalga
+                    oshiruvchi
+                    kompaniya.
+                    <br>
+                    Maqsadimiz — mijozlarga sifatli, zamonaviy va qulay joylashuvga ega bo'lgan uy-joylarni taqdim
+                    etish.
+                </p>
+            </div>
+
+            <div class="about-block">
+                <h3>🎯 Missiyamiz</h3>
+                <p>Insonlarga sifatli va zamonaviy yashash sharoitini yaratish — bu bizning asosiy vazifamiz.
+                    Har bir mijozga individual yondashuv, ishonchli xizmat va o‘z vaqtida qurilish.</p>
+            </div>
+
+            <div class="about-block">
+                <h3>🏗 Qurilish jarayonlari</h3>
+                <p>Qurilishda faqat sertifikatlangan va ekologik xavfsiz materiallardan foydalanamiz.
+                    Har bir loyiha zamonaviy arxitektura va aqlli texnologiyalar bilan uyg‘unlashtirilgan.</p>
+            </div>
+
+            <div class="about-block">
+                <h3>📜 Tariximiz</h3>
+                <p><strong>Amazing House</strong> 2018-yilda tashkil topgan. O‘shandan beri 10 dan ortiq obyektlar
+                    muvaffaqiyatli foydalanishga topshirilgan.</p>
+            </div>
+
+            <div class="about-block">
+                <h3>👥 Jamoamiz</h3>
+                <p>Bizning jamoa — o‘z ishining ustalari bo‘lgan muhandislar, arxitektorlar va dizaynerlardan iborat.
+                    Har bir xodim mijoz ehtiyojini chuqur tushunib, mukammal yechimlarni taklif qiladi.</p>
+            </div>
+
+            <div class="about-block">
+                <h3>💎 Nima uchun bizni tanlashadi?</h3>
+                <ul>
+                    <li>Ishonchli hamkorlik</li>
+                    <li>Tez va sifatli qurilish</li>
+                    <li>Kafolatlangan xizmatlar</li>
+                    <li>Yillar davomida to‘plangan tajriba</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h4>Kompyaniya brendi</h4>
+                <img class="logo" src="amazing_house.jpg" alt="">
+            </div>
+            <div>
+                <h4>Aloqa</h4>
+                <p><a href="tel:+998997160100">+998 (99) 716-01-00</a></p>
+                <p><a href="tel:+998936250104">+998 (93) 625-01-04</a></p>
+            </div>
+            <div>
+                <h4>Telegram kanalimiz</h4>
+                <p>
+                    <a href="https://t.me/BukharaAMAZINGHouse" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/24/2111/2111646.png" alt="Telegram" />
+                        Telegram
+                    </a>
+                </p>
+            </div>
+            <div>
+                <h4>Qo’shimcha bog’lanishlar</h4>
+                <p>
+                    <a href="https://t.me/Yosinjon123" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/24/2111/2111646.png" alt="Telegram" />
+                        Telegram
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/24/1384/1384060.png" alt="YouTube" />
+                        YouTube (Hozircha mavjud emas)
+                    </a>
+                </p>
+                <p>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram" />
+                        Instagram (Hozircha mavjud emas)
+                    </a>
+                </p>
+                <p>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook" />
+                        Facebook (Hozircha mavjud emas)
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 - Amazing House</p>
+            <p>Barcha huquqlar Amazing House tomonidan himoyalangan.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
